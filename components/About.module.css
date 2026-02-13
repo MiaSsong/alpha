@@ -1,0 +1,75 @@
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f8f9fa;
+    /* Light gray background */
+}
+
+.header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+
+    @media (max-width: 48em) {
+        font-size: 32px;
+    }
+}
+
+.highlight {
+    color: var(--mantine-color-deepGreen-6);
+    position: relative;
+    display: inline-block;
+}
+
+/* Optional: Underline effect */
+.highlight::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background-color: var(--mantine-color-deepGreen-1);
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.description {
+    font-size: 18px;
+
+    @media (max-width: 36em) {
+        font-size: 16px;
+
+        br {
+            display: none;
+        }
+    }
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid transparent;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    /* Mantine shadow-md approx */
+    border-color: var(--mantine-color-deepGreen-2);
+}
+
+.icon {
+    background-color: var(--mantine-color-deepGreen-0);
+    color: var(--mantine-color-deepGreen-6);
+}
+
+.cardTitle {
+    color: var(--mantine-color-dark-6);
+}

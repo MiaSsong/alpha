@@ -1,0 +1,89 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header[data-scrolled='true'] {
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.inner {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    padding-top: 5px;
+    /* Spacing fix if needed */
+}
+
+.link {
+    display: block;
+    line-height: 1;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    /* Default white */
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.link[data-active='scrolled'] {
+    color: #333;
+}
+
+.link[data-active='scrolled']:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+.logo {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logo[data-scrolled='true'] {
+    color: #006045;
+    /* Brand color */
+}
+
+.dropdown {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-width: 0;
+    overflow: hidden;
+    padding: 10px;
+
+    @media (min-width: 48em) {
+        /* sm breakpoint */
+        display: none;
+    }
+}
+
+.dropdown .link {
+    color: #333;
+}

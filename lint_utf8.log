@@ -1,0 +1,35 @@
+﻿
+> ver5@0.1.0 lint
+> eslint
+
+
+C:\Users\songm\OneDrive\?〓????낅Т\ver5\components\About.tsx
+   3:68  warning  'Image' is defined but never used         @typescript-eslint/no-unused-vars
+  47:58  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\songm\OneDrive\?〓????낅Т\ver5\components\Contact.tsx
+  3:79  warning  'Text' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\songm\OneDrive\?〓????낅Т\ver5\components\Footer.tsx
+  1:21  warning  'Group' is defined but never used               @typescript-eslint/no-unused-vars
+  1:28  warning  'ActionIcon' is defined but never used          @typescript-eslint/no-unused-vars
+  1:40  warning  'rem' is defined but never used                 @typescript-eslint/no-unused-vars
+  2:10  warning  'IconBrandTwitter' is defined but never used    @typescript-eslint/no-unused-vars
+  2:28  warning  'IconBrandYoutube' is defined but never used    @typescript-eslint/no-unused-vars
+  2:46  warning  'IconBrandInstagram' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\songm\OneDrive\?〓????낅Т\ver5\components\Header.tsx
+  3:42  warning  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\songm\OneDrive\?〓????낅Т\ver5\components\Hero.tsx
+  3:49  warning  'Box' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\songm\OneDrive\?〓????낅Т\ver5\components\Service.tsx
+  5:42  warning  'IconClock' is defined but never used     @typescript-eslint/no-unused-vars
+  5:53  warning  'IconDatabase' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\songm\OneDrive\?〓????낅Т\ver5\postcss.config.mjs
+  1:1  warning  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+??14 problems (1 error, 13 warnings)
+
