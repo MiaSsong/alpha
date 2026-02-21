@@ -126,7 +126,7 @@ export function Service() {
                             <Title order={4} mb="sm">실시간 대시보드</Title>
                             <Text size="sm" c="dimmed">
                                 엑셀 수작업을 실시간 분석 대시보드로 전환하세요.
-                                데이터의 흐름을 한눈에 파악할 수 습니다.
+                                데이터의 흐름을 한눈에 파악할 수 있습니다.
                             </Text>
                         </Paper>
                         <Paper className={`${classes.featureCard} feature-card`} p="xl" radius="lg">
@@ -236,7 +236,7 @@ export function Service() {
                             <Card className={`${classes.statCard} stat-card`}>
                                 <IconClock size={40} color="var(--mantine-color-deepGreen-6)" style={{ margin: '0 auto 15px' }} />
                                 <div className={classes.statValue}>
-                                    <span className="stat-number">0</span>~<span className="stat-number">0</span>%
+                                    <span className="stat-number">40</span>~<span className="stat-number">50</span>%
                                 </div>
                                 <div className={classes.statLabel}>작업 시간 단축</div>
                                 <div className={classes.statDesc}>

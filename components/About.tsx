@@ -120,7 +120,7 @@ export function About() {
                     </div>
                     <div ref={descRef}>
                         <Text c="dimmed" mt="md" className={classes.description}>
-                            우리는 지오영의 22년 유통 노하우와 알스솔루션의 통합 IT 기술력를 결합하여,<br />
+                            우리는 지오영의 22년 유통 노하우와 알스솔루션의 통합 IT 기술력을 결합하여,<br />
                             아날로그 방식의 수기 업무를 전산화하고 헬스케어 SCM의 새로운 표준을 제시합니다.
                         </Text>
                     </div>

@@ -5,8 +5,8 @@ import { useDisclosure, useWindowScroll } from '@mantine/hooks';
 import classes from './Header.module.css';
 
 const links = [
-    { link: '#about', label: '회사소개' },
-    { link: '#service', label: '서비스소개' },
+    { link: '#about', label: '회사 소개' },
+    { link: '#service', label: '서비스 소개' },
     { link: '#contact', label: '문의하기' },
 ];
 

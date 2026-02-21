@@ -38,7 +38,7 @@ export function Contact() {
                                 언제든지 연락주세요
                             </Title>
                             <Text className={classes.infoText}>
-                                언제든지 문의 주시면 성실하게 답변하겠습니다.
+                                문의주시면 성실하게 답변하겠습니다.
                             </Text>
 
                             <Stack gap="md">
