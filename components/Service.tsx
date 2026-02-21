@@ -208,14 +208,14 @@ export function Service() {
                         >
                             <List.Item>
                                 <div>
-                                    <Text fw={700}>ATC 코드 기반 시장 점유율(MS) 분석</Text>
+                                    <Text fw={700}>ATC 코드 기반 시장 점유율 분석</Text>
                                     <Text size="sm" c="dimmed" mt={4}>약물 분류 체계에 따른 정밀한 시장 분석을 제공합니다.</Text>
                                 </div>
                             </List.Item>
                             <List.Item>
                                 <div>
-                                    <Text fw={700}>실시간 재고 현황 파악</Text>
-                                    <Text size="sm" c="dimmed" mt={4}>언제든지 정확한 재고 상황을 확인할 수 있어 결품을 방지합니다.</Text>
+                                    <Text fw={700}>예상 재고 파악</Text>
+                                    <Text size="sm" c="dimmed" mt={4}>재고 상황을 확인할 수 있어 적정재고량을 예측 할 수 있습니다.</Text>
                                 </div>
                             </List.Item>
                             <List.Item>
@@ -240,7 +240,7 @@ export function Service() {
                                 </div>
                                 <div className={classes.statLabel}>작업 시간 단축</div>
                                 <div className={classes.statDesc}>
-                                    수작업 사무 자동화를 통해<br />
+                                    자동화를 통해<br />
                                     반복 업무 시간을 획기적으로 줄입니다.
                                 </div>
                             </Card>

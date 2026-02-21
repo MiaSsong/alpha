@@ -35,7 +35,7 @@ export function Contact() {
                     <SimpleGrid cols={{ base: 1, md: 2 }} spacing={40}>
                         <Box className={classes.infoBox}>
                             <Title order={3} className={classes.infoTitle}>
-                                언제든지 연락주세요
+                                연락주세요
                             </Title>
                             <Text className={classes.infoText}>
                                 문의주시면 성실하게 답변하겠습니다.

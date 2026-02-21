@@ -22,7 +22,7 @@ const features = [
     {
         icon: IconChartBar,
         title: '데이터 기반 의사결정',
-        description: '직관적인 대시보드와 분석 도구를 통해 비즈니스 성장을 위한 최적의 전략을 수립합니다.',
+        description: '데이터를 기반으로 비즈니스 성장을 위한 최적의 전략을 수립합니다.',
     },
 ];
 
@@ -120,8 +120,7 @@ export function About() {
                     </div>
                     <div ref={descRef}>
                         <Text c="dimmed" mt="md" className={classes.description}>
-                            우리는 지오영의 22년 유통 노하우와 알스솔루션의 통합 IT 기술력을 결합하여,<br />
-                            아날로그 방식의 수기 업무를 전산화하고 헬스케어 SCM의 새로운 표준을 제시합니다.
+                            지오영의 22년 유통 노하우와 알스솔루션의 통합 IT 기술력을 결합하여 헬스케어 SCM의 새로운 표준을 제시합니다.
                         </Text>
                     </div>
                 </div>
