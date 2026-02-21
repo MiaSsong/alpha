@@ -214,7 +214,7 @@ export function Service() {
                             </List.Item>
                             <List.Item>
                                 <div>
-                                    <Text fw={700}>예상 재고 파악</Text>
+                                    <Text fw={700}>적정 재고 파악</Text>
                                     <Text size="sm" c="dimmed" mt={4}>재고 상황을 확인할 수 있어 적정재고량을 예측 할 수 있습니다.</Text>
                                 </div>
                             </List.Item>
